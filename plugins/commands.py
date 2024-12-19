@@ -70,7 +70,7 @@ async def start(client, message):
             InlineKeyboardButton('💸 E𝐚𝐫𝐧 M𝐨𝐧𝐞𝐲 💸', callback_data="shortlink_info")
             ],[
                 InlineKeyboardButton(
-                    "🦋 SUBSCRIBE YT Channel 🦋", url='https://youtube.com/@LazyDeveloperr'
+                    "🦋 More Bots 🦋", url='https://t.me/aibots72'
                 )
             ]]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -85,7 +85,7 @@ async def start(client, message):
         try:
             invite_link = await client.create_chat_invite_link(int(AUTH_CHANNEL), creates_join_request=True)
         except ChatAdminRequired:
-            logger.error("Hey Sona, Ek dfa check kr lo ki main Channel mei Add hu ya nhi...!")
+            logger.error("Hey Mr., Ek dfa check kr lo ki main Channel mei Add hu ya nhi...!")
             return
         btn = [
             [
@@ -95,7 +95,7 @@ async def start(client, message):
             ],
              [
                 InlineKeyboardButton(
-                    "🦋 SUBSCRIBE YT Channel 🦋", url='https://youtube.com/@LazyDeveloperr'
+                    "🦋 More Bots 🦋", url='https://t.me/aibots72'
                 )
             ]
         ]
@@ -134,7 +134,7 @@ async def start(client, message):
             InlineKeyboardButton('💸 E𝐚𝐫𝐧 M𝐨𝐧𝐞𝐲 💸', callback_data="shortlink_info")
         ],[
                 InlineKeyboardButton(
-                    "🦋 SUBSCRIBE YT Channel 🦋", url='https://youtube.com/@LazyDeveloperr'
+                    "🦋 More Bots🦋", url='https://t.me/aibots72'
                 )
             ]
         ]
